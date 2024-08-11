@@ -1,0 +1,18 @@
+def water_melon(n):
+    """
+    The function `water_melon` checks if a given integer `n` is even and greater than 2, returning "YES"
+    if it meets the conditions and "NO" otherwise.
+    
+    :param n: The function `water_melon` takes an integer `n` as input and checks if it is an even
+    number greater than 2. If the condition is met, it returns "YES", otherwise it returns "NO"
+    :return: The function `water_melon` checks if the input number `n` is even and greater than 2. If
+    both conditions are met, it returns "YES", otherwise it returns "NO".
+    """
+
+    if n % 2 == 0 and n > 2:
+        return "YES"
+    return "NO"
+
+
+n = int(input())
+print(water_melon(n))
